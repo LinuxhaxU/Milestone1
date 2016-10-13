@@ -1,0 +1,289 @@
+html
+{
+	background-color: #53507E;
+}
+H1{
+	color: white;
+	font-size: 200%;
+}
+H2{
+	color: white;
+	font-size: 150%;
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif;
+	color: #B1AEDE;
+}
+H3{
+	text-align: left;
+	color: #FF8ED8;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+H4{
+	color: #5C5C5C;
+	font-size: .8em;
+	display:inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+H5{
+	color: #FF8ED8;
+	display:inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: .8em;
+}
+p{
+	font-family: 'Roboto Slab', serif;
+}
+#header{
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	width: 100%;
+}
+#logo
+{
+	width: 70%;
+	float:left;
+}
+#logo img
+{
+	width:20%;
+	height: 37px;
+}
+#topnav
+{
+	width: 20%;
+	float: left;
+}
+#topnav a{
+	float: left;
+	color: #B1AEDE;
+	margin-left: 15%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#topnav a:hover{
+	color: white;
+}
+
+#topnav a:active{
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FF8ED8;
+}
+
+body{
+	
+}
+
+#bodyL{
+	width:40%;
+	float:left;
+	margin-top:45px;
+	margin-left:5%;
+	margin-right:0%:
+	padding: 0;
+}
+#bodyL img{
+	width:350px;
+	height: 50%;
+	margin-left:1%;
+}
+#bodyR{
+	width:40%;
+	float:left;
+	margin-left:2%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+#bodyTop
+{
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 15%;
+	margin-top: 20px;
+	float: left;
+}
+#bodyMiddle
+{
+	background-color: white;
+	width: 60%;
+	height: 100px;
+	margin-left: 15%;
+	margin-top: 0%;
+	padding-left: 45px;
+	float: left;
+	margin-top: 2%;
+	position:relative;
+}
+#bodyMiddle img
+{
+	position: absolute;
+	width: 15%;
+	top:-5%;
+	left:-5%;
+	border: 8px solid white;
+	border-radius: 50%;
+}
+#bodyBottom
+{
+	background-color: white;
+	width: 60%;
+	height: 150px;
+	padding-right:50px;
+	margin-left: 15%;
+	margin-top: 2%;
+	float: left;
+	text-align: right;
+	position:relative;
+}
+#text{
+	padding: 5%;
+}
+#bodyBottom img
+{
+	position: absolute;
+	width: 15%;
+	top:-5%;
+	right:-5%;
+	border: 8px solid white;
+	border-radius: 50%;
+}
+#bodyT{
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: 15%;
+	margin-top: 5%;
+	float: left;
+	margin-bottom: 2%;
+}
+form{
+	width: 60%;
+	margin-left: 15%;
+}
+form input{
+	color: #B1AEDE;
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	border-bottom-style: inset;
+}
+#fName,#lName
+{
+	float: left;
+	width: 49%;
+	margin-left: 1%;
+}
+#email,#cEmail
+{
+	margin-top: 2em;
+	width: 100%;
+}
+#footer nav
+{
+	width: 70%;
+	float: left;
+}
+#footer nav a{
+	margin-left: 5%;
+	float: left;
+	color: #B1AEDE;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer nav a:hover{
+	color: white;
+}
+#footer nav a:active{
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FF8ED8;
+}
+#social img
+{
+	width: 3%;
+	margin-left: 1%;
+	float: left;
+}
+#social img:hover
+{
+	opacity: .75;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #403D55;
+	padding: 25px;
+	width: 100%;
+}
+#copyright
+{
+	width: 100%;
+	float:left;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	color: #B1AEDE;
+}
+#submit
+{
+	box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+	border-radius: 40px;
+	background-color: #FF8ED8;
+	color: white;
+	position: relative;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 130%;
+	text-align: center;
+	color:white;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	width: 40%;
+	margin-left: 25%;
+	position: relative;
+}
+#submit:hover
+{
+	box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+	color: #403D65;
+}
+#button
+{
+	box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+	border-radius: 40px;
+	background-color: #FF8ED8;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 130%;
+	text-align: center;
+	color:white;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 15%;
+}
+#button:hover
+{
+	box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+	color: #403D65;
+}
